@@ -30,7 +30,6 @@ const Myapp = () => {
         setData(jsonData);
 
         if(search === ""){
-            // alert("Enter name")
             setError("Please Enter Name")
         }
         else if(jsonData.cod == '404'){
